@@ -1,0 +1,23 @@
+body{
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+	font-size: 70px;
+}
+h2{
+	font-size: 30px;
+}
+.b4{
+	background-color: rgb(255, 242, 213);
+	color: rgb(0, 0, 0);
+	border: 5px solid rgb(0, 0, 0);
+	border-collapse: collapse;
+	height: 500px;
+	width: 800px;
+	font-size: 20px;
+	margin: auto;
+}
+.b5{
+	border-bottom: 1px solid rgb(0, 0, 0);
+}

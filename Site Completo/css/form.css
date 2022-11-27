@@ -1,0 +1,222 @@
+body {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-family: Calibri, arial, sans-serif, times;
+	line-height: 30px;
+}
+.center {
+	text-align: center;
+}
+.centerDiv {
+	margin: 0 auto;
+}
+.assinsDiv {
+	width: 650px;
+	display: flex;
+	justify-content: center;
+}
+a:visited {
+	color: rgb(0, 60, 255);
+}
+ul {
+	padding-left: 20px;
+    color: rgb(0, 0, 0);
+}
+.termosCondicaoTxt {
+	width: 500px;
+}
+.assinDiv {
+	margin-right: 15px;
+	padding: 5px;
+	border: 2px solid rgb(0, 92, 122);
+	border-radius: 8px;
+	font-size: 75%;
+	color: whitesmoke;
+	width: 220px;
+}
+.assinTitleDiv {
+	background: linear-gradient(rgb(81, 211, 255), rgb(0, 144, 192));
+	border-radius: 4px;
+	font-size: 100%;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+label {
+	display: inline-block;
+	width: 150px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.nasc {
+	width: 150px;
+	text-align: center;
+}
+.nascTxt {
+	margin-left: 15px;
+}
+input {
+	margin-top: 6px;
+}
+label.format {
+	display: inline-block;
+}
+legend {
+	font-size: 14px;
+	font-weight: bold;
+}
+input {
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	border: 1px solid rgb(95, 95, 95);
+	border-radius: 8px;
+}
+select {
+	margin-top: 6px;
+	height: 25px;
+	width: 170px;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(95, 95, 95);
+	border-radius: 8px;
+}
+textarea {
+	resize: none;
+	background-color: black;
+	color: rgb(0, 0, 0);
+	border-radius: 8px;
+}
+fieldset {
+	width: 650px;
+	margin: auto;
+	border-radius: 8px;
+	border: 1px solid rgb(0, 92, 122);
+}
+.goup {
+	vertical-align: top;
+}
+.nome {
+	width: 250px;
+	margin-right: 10px;
+}
+.senha {
+	width: 200px;
+	margin-right: 10px;
+}
+.estadoCivil {
+	margin-right: 10px;
+}
+.sexo1 {
+	margin-left: 40px;
+}
+.sexo2 {
+	margin-left: -20px;
+}
+.sexoTxt {
+	width: 350px;
+}
+.raca {
+	margin-left: -60px;
+	width: 153px;
+}
+.racaTxt {
+	margin-left: -20px;
+	width: 153px;
+}
+.cep {
+	width: 150px;
+	margin-right: 10px;
+}
+.cepLabel {
+	text-align: center;
+}
+.uf {
+	width: 155px;
+	margin-right: 10px;
+}
+.submitFieldset {
+	margin-top: 15px;
+}
+.ufLabel {
+	text-align: center;
+}
+.bairro {
+	width: 300px;
+}
+.textnume {
+	width: 155px;
+	margin-right: 10px;
+}
+.muniLabel {
+	text-align: center;
+	margin-left: 15px;
+}
+.bairroLabel {
+	text-align: center;
+	margin-left: 85px;
+}
+.numeLabel {
+	text-align: center;
+	margin-left: 15px;
+}
+.compLabel {
+	text-align: center;
+	margin-left: 85px;
+}
+.textmuni {
+	width: 150px;
+	margin-right: 10px;
+}
+.textcomp {
+	width: 296px;
+}
+.cadastrar {
+	margin-right: 5px;
+}
+.cpf {
+	width: 150px;
+	margin-right: 10px;
+}
+.cpfTxt {
+	margin-left: 0px;
+	text-align: center;
+}
+.email {
+	width: 280px;
+	margin-right: 10px;
+}
+.emailTxt {
+	margin-left: 80px;
+	text-align: center;
+}
+.assin {
+	width: 175px;
+}
+.assinTxt {
+	margin-left: 100px;
+	text-align: center;
+}
+.numeroCartao {
+	width: 250px;
+	margin-right: 10px;
+}
+.numeroCartaoTxt {
+	margin-left: 50px;
+	text-align: center;
+}
+.dataValidade {
+	width: 150px;
+	text-align: center;
+	margin-right: 10px;
+}
+.dataValidadeTxt {
+	margin-left: 67px;
+	text-align: center;
+}
+.codigoSeg {
+	width: 200px;
+}
+.codigoSegTxt {
+	text-align: center;
+	margin-left: 35px;
+}

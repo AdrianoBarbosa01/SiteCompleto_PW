@@ -1,0 +1,25 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0%;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 20px;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 300px;
+    align-items: center;
+    border: 1px solid black;
+}

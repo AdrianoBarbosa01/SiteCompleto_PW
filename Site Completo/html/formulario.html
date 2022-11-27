@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../css/form.css" />
+	<title>Aula Form</title>
+</head>
+<body>
+		<h1 class="center">Convênio S.U.S</h1>
+		<h3 class="center">Assinaturas</h3>
+		<p class="center disclaimer">
+			*Todas as assinaturas contêm privilegios das assinaturas anteriores
+		</p>
+		<div class="assinsDiv centerDiv">
+			<div class="assinDiv">
+				<div class="assinTitleDiv">Premium</div>
+				<ul>
+					<li>Preferência na Fila do S.U.S</li>
+					<li>Direito a não precisar prencher ficha</li>
+				</ul>
+			</div>
+			<div class="assinDiv">
+				<div class="assinTitleDiv">Premium+</div>
+				<ul>
+					<li>Ambulância chega mais rápido em atendimentos</li>
+				</ul>
+			</div>
+		</div>
+		<br />
+		<h3 class="center">Cadastro</h3>
+		<form>
+			<fieldset>
+				<legend>Informações Gerais de Cadastro</legend>
+				<label for="nome" class="center nome">Nome </label>
+				<label for="senha" class="center senha">Senha</label>
+				<label for="nasc" class="center nasc nascTxt">Data de Nascimento</label>
+				<br />
+				<input
+					class="nome"
+					type="text"
+					name="nome"
+					size="11"
+					id="nome"
+					required
+					autofocus
+				/>
+				<input class="senha" type="password" name="senha" required id="senha" />
+				<input
+					class="nasc"
+					type="date"
+					name="dataNasc"
+					class="nasc"
+					required
+					id="nasc"
+				/>
+				<br />
+				<label for="estadoCivil" class="center">Estado Civil</label>
+				<label for="sexo" class="center sexoTxt">Sexo</label>
+				<label for="raca" class="center racaTxt">Cor ou Raça</label>
+				<br />
+				<select name="estadoCivil" id="estadoCivil" class="estadoCivil">
+					<option value="none">--</option>
+					<option value="solteiro">Solteiro (a)</option>
+					<option value="casado">Casado (a)</option>
+					<option value="divorciado">Divorciado (a)</option>
+					<option value="viuvo">Viúvo (a)</option>
+					<option value="separado">Separado (a)</option>
+				</select>
+				<input type="radio" name="sexo" value="feminino" class="sexo1" />
+				<label class="format" for="masculino" class="sexoLabel">Masculino</label>
+				<input type="radio" name="sexo" value="feminino" class="sexo2" />
+				<label class="format" for="feminino" class="sexoLabel">Feminino</label>
+				<select name="raca" id="raca" class="raca">
+					<option value="none">--</option>
+					<option value="preto">Preto (a)</option>
+					<option value="pardo">Pardo (a)</option>
+					<option value="branco">Branco (a)</option>
+					<option value="indigena">Indígena</option>
+					<option value="amarelo">Amarelo (a)</option>
+				</select>
+				<br />
+            </fieldset>
+			<fieldset>
+				<legend>Endereço</legend>
+				<label for="CEP" class="cepLabel">CEP</label>
+				<label for="Múnicipio" class="muniLabel">Município</label>
+				<label for="Bairro" class="bairroLabel">Bairro</label>
+				<br />
+				<input
+					class="cep"
+					type="text"
+					name="cep"
+					required
+					placeholder="XX.XXX-XXX"
+				/>
+				<input
+					class="textmuni"
+					type="text"
+					name="municipio"
+					required
+					id="Múnicipio"
+					autocomplete=""
+				/>
+				<input class="bairro" type="text" name="Bairro" id="Bairro" required />
+				<br />
+				<label for="uf" class="ufLabel">UF</label>
+				<label for="numero" class="numeLabel">Número</label>
+				<label for="comp" class="compLabel">Complemento</label>
+				<br />
+				<select name="uf" id="uf" class="uf">
+					<option value="none">--</option>
+					<option value="sp">SP</option>
+					<option value="rj">RJ</option>
+					<option value="es">ES</option>
+					<option value="mg">MG</option>
+					<option value="rs">RS</option>
+					<option value="outro">Outro</option>
+				</select>
+				<input
+					class="textnume"
+					type="number"
+					name="numero"
+					required
+					id="numero"
+				/>
+				<input class="textcomp" type="text" name="Complemento" id="comp" />
+			</fieldset>
+			<fieldset>
+				<legend>Informações de Pagamento</legend>
+				<label for="cpf" class="cpfTxt">CPF</label>
+				<label for="email" class="emailTxt">E-Mail</label>
+				<label for="assinatura" class="assinTxt">Assinatura</label>
+				<br />
+				<input
+					type="text"
+					class="cpf"
+					name="cpf"
+					id="cpf"
+					placeholder="XXX.XXX.XXX-XX"
+					required
+				/>
+				<input
+					type="email"
+					class="email"
+					name="email"
+					placeholder="nome@email.dominio"
+					required
+				/>
+				<select name="assinatura" id="assinatura" class="assin" required>
+					<option value="none">--</option>
+					<option value="preimium">Premium - R$ 50 por mês</option>
+					<option value="premiumPlus">Premium+ - R$ 75 por mês</option>
+				</select>
+				<br />
+				<label for="numeroCartao" class="numeroCartaoTxt">Número do Cartão</label>
+				<label for="dataValidade" class="dataValidadeTxt">Data de Validade</label>
+				<label for="codigoSeg" class="codigoSegTxt">Código de Segurança</label>
+				<br />
+				<input
+					type="text"
+					class="numeroCartao"
+					name="numeroCartao"
+					placeholder="XXXX XXXX XXXX XXXX"
+					required
+				/>
+				<input type="date" class="dataValidade" name="dataValidade" required />
+				<input
+					type="number"
+					class="codigoSeg"
+					name="codigSeg"
+					required
+					max="999"
+				/>
+				<br />
+				<input
+					type="checkbox"
+					name="termosCondicao"
+					id="termosCondicao"
+					required
+				/>
+				<label for="termosCondicao" class="termosCondicaoTxt">
+					Eu concordo com os
+					<a href="encurtador.com.br/jpCL7"> Termos de Condição </a>
+					e concordo em pagar o preço especificado
+				</label>
+			</fieldset>
+
+			<fieldset class="submitFieldset">
+				<div class="center">
+					<input
+						type="submit"
+						name="Enviar"
+						value="Cadastrar!"
+						class="cadastrar"
+					/>
+					<input type="reset" name="apagar" value="Limpar!" />
+				</div>
+			</fieldset>
+		</form>
+</body>
+</html>

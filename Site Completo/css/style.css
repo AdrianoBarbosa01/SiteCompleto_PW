@@ -1,0 +1,49 @@
+body{
+    background-image: url(../img/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Segoe UI';
+    margin: 0%;
+}
+.home{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    margin: 0 auto;
+    padding: 35px;
+}
+.site{
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    font-size: 23px;
+    padding-left: 60px;
+}
+.hobbies{
+    color: white;
+    margin: 0 auto;
+    font-size: 50px;
+}
+.contatos{
+    color: white;
+    margin: 0 auto;
+    font-size: 50px;
+}
+.pessoal{
+    color: white;
+    margin: 0 auto;
+    font-size: 50px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+  }
+.borda{
+    margin-right: 1100px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    border-radius: 10px;
+    background-image: linear-gradient( 45deg ,rgb(61, 61, 61) , white , white , white , rgb(61, 61, 61));
+    text-align: center;
+    border: 4px solid black;
+}
